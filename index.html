@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="main-content">
+    <header class="container header active" id="home">
+        <div class="header-content">
+            <div class="left-header">
+                <div class="h-shape"></div>
+                <div class="image">
+                    <img src="img/hero.png" alt="">
+                </div>
+            </div>
+            <div class="right-header">
+                <h1 class="name">
+                    Olá, Eu sou <span>Gabriel Oliveira Fonseca de Sousa.</span>
+                    Back-end,Front-end, DevOps e Mobile.
+                </h1>
+                <p>
+                    Tenho uma vasta experiência em várias linguagens de programação e 
+                    ferramentas modernas do mercado. Ao longo dos meus mais de 
+                    3 anos de experiência profissional, adquiri a capacidade de 
+                    me adaptar a situações complexas e aprender novas linguagens 
+                    rapidamente. Tenho um histórico comprovado de entrega de projetos 
+                    e sprints dentro dos prazos estabelecidos. Busco sempre me aperfeiçoar
+                    e me manter atualizado com as últimas tendências e tecnologias. Tenho 
+                    um forte foco na qualidade e estou constantemente aprimorando minhas
+                    habilidades para oferecer soluções eficientes e inovadoras. 
+                    Estou aberto a diferentes modelos de contratação, seja como prestador 
+                    de serviços no regime PJ, onde posso priorizar a entrega e resultados, 
+                    ou como funcionário CLT em período integral. Estou motivado para enfrentar 
+                    novos desafios e contribuir com meu conhecimento e experiência para o sucesso 
+                    de projetos e equipes.
+                </p>
+                <div class="btn-con">
+                    <a href="" class="main-btn">
+                        <span class="btn-text">Download CV</span>
+                        <span class="btn-icon"><i class="fas fa-download"></i></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="container about" id="about">
+            <div class="main-title">
+                <h2>habilidades e <span>competencia</span><span class="bg-text">habilidades e competencia</span></h2>
+            </div> 
+            <div class="about-stats">
+                <h4 class="stat-title">Front-End</h4>
+                <div class="progress-bars">
+                    <div class="progress-bar">
+                        <p class="prog-title">bootstrap</p>
+                        <div class="progress-con">
+                            <p class="prog-text">100%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 100%;"></span>
+                            </div>  
+                        </div>    
+                    </div>  
+                    <div class="progress-bar" onmouseover="alterarVisibilidade('.classVue', true)" onmouseout="alterarVisibilidade('.classVue', false)">
+                        <p class="prog-title">vue.js</p>
+                        <div class="progress-con">
+                            <p class="prog-text">80%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 80%;"></span>
+                            </div>
+                        </div> 
+                        <div class="classVue" style="display: none;">
+                            <p>• Pinia</p>
+                            <p>• VueX</p>
+                            <p>• Vue Router</p>
+                            <p>• Vue-i18n</p>
+                            <p>• Vuetify</p>
+                        </div>
+                    </div>   
+                    <div class="progress-bar">
+                        <p class="prog-title">jquery</p>
+                        <div class="progress-con">
+                            <p class="prog-text">80%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 100%;"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">html5 , css e javscript</p>
+                        <div class="progress-con">
+                            <p class="prog-text">60%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 60%;"></span>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="progress-bar">
+                        <p class="prog-title">blade</p>
+                        <div class="progress-con">
+                            <p class="prog-text">60%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 60%;"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">vite</p>
+                        <div class="progress-con">
+                            <p class="prog-text">40%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 40%;"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div> 
+            <div class="about-stats">
+                <h4 class="stat-title">Back-End</h4>
+                <div class="progress-bars">
+                    <div class="progress-bar" onmouseover="alterarVisibilidade('.classLaravel', true)" onmouseout="alterarVisibilidade('.classLaravel', false)">
+                        <p class="prog-title">laravel</p>
+                        <div class="progress-con">
+                            <p class="prog-text">100%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 100%;"></span>
+                            </div>
+                        </div> 
+                        <div class="classLaravel" style="display: none;">
+                            <p>• Conceitos Básicos (Middleware,Response,Validation,Session...)</p>
+                            <p>• ApiResource</p>
+                            <p>• Breeze</p>
+                            <p>• Sanctum</p>
+                            <p>• Teste Unitário</p>
+                            <p>• Design Pattern DTOs</p>
+                            <p>• Design Pattern Repository</p>
+                            <p>• Design Pattern Adapter</p>
+                            <p>• SOLID</p>
+                        </div>
+                    </div> 
+                    <div class="progress-bar" onmouseover="alterarVisibilidade('.mobileClass', true)" onmouseout="alterarVisibilidade('.mobileClass', false)">
+                        <p class="prog-title">php</p>
+                        <div class="progress-con">
+                            <p class="prog-text">100%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 100%;"></span>
+                            </div>
+                        </div> 
+                        <div class="mobileClass" style="display: none;">
+                            <p>• Programação Orientada a Objetos (POO)</p>
+                            <p>• PHPUnit</p> 
+                        </div>
+                    </div> 
+                    <div class="progress-bar">
+                        <p class="prog-title">javascript</p>
+                        <div class="progress-con">
+                            <p class="prog-text">80%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 80%;"></span>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="progress-bar">
+                        <p class="prog-title">lumen</p>
+                        <div class="progress-con">
+                            <p class="prog-text">60%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 60%;"></span>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="progress-bar">
+                        <p class="prog-title">dart</p>
+                        <div class="progress-con">
+                            <p class="prog-text">40%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 40%;"></span>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="progress-bar">
+                        <p class="prog-title">symfony</p>
+                        <div class="progress-con">
+                            <p class="prog-text">40%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 40%;"></span>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="progress-bar">
+                        <p class="prog-title">c# / asp .net</p>
+                        <div class="progress-con">
+                            <p class="prog-text">20%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 20%;"></span>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="progress-bar">
+                        <p class="prog-title">java</p>
+                        <div class="progress-con">
+                            <p class="prog-text">20%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 20%;"></span>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div> 
+            <div class="about-stats">
+                <h4 class="stat-title">DevOps</h4>
+                <div class="progress-bars">
+                    <div class="progress-bar" onmouseover="alterarVisibilidade('.classMysql', true)" onmouseout="alterarVisibilidade('.classMysql', false)">
+                        <p class="prog-title">mysql</p>
+                        <div class="progress-con">
+                            <p class="prog-text">80%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 80%;"></span>
+                            </div>
+                        </div> 
+                        <div class="classMysql" style="display: none;">
+                            <p>• Consultas SQL</p>
+                            <p>• Modelagem de Dados (MER)</p> 
+                        </div> 
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">ubuntu</p>
+                        <div class="progress-con">
+                            <p class="prog-text">80%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 80%;"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">git</p>
+                        <div class="progress-con">
+                            <p class="prog-text">80%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 80%;"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">wsl2</p>
+                        <div class="progress-con">
+                            <p class="prog-text">60%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 60%;"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">nginx</p>
+                        <div class="progress-con">
+                            <p class="prog-text">60%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 60%;"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">postgresql</p>
+                        <div class="progress-con">
+                            <p class="prog-text">60%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 60%;"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar" onmouseover="alterarVisibilidade('.awsClass', true)" onmouseout="alterarVisibilidade('.awsClass', false)">
+                        <p class="prog-title">aws</p>
+                        <div class="progress-con">
+                            <p class="prog-text">60%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 60%;"></span>
+                            </div>
+                        </div> 
+                        <div class="awsClass" style="display: none;">
+                            <p>• EC2</p>
+                            <p>• Imagens</p>
+                            <p>• RDS</p>
+                            <p>• Escala Vertical e Horizontal</p>
+                            <p>• S3</p>
+                            <p>• Certificado SSL</p> 
+                            <p>• Route53</p> 
+                        </div>
+                    </div>
+                    <div class="progress-bar" onmouseover="alterarVisibilidade('.dockerClass', true)" onmouseout="alterarVisibilidade('.dockerClass', false)">
+                        <p class="prog-title">docker</p>
+                        <div class="progress-con">
+                            <p class="prog-text">60%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 60%;"></span>
+                            </div>
+                        </div> 
+                        <div class="dockerClass" style="display: none;">
+                            <p>• Containers</p>
+                            <p>• Limitar Memória e CPU</p> 
+                            <p>• Dockerfile (Python,PHP,Node.js,Go)</p> 
+                            <p>• Docker Compose (Nginx, Redis, MySql, PHP)</p> 
+                        </div>
+                    </div>
+                    <div class="progress-bar" onmouseover="alterarVisibilidade('.gcpClass', true)" onmouseout="alterarVisibilidade('.gcpClass', false)">
+                        <p class="prog-title">gcp (google cloud plataform)</p>
+                        <div class="progress-con">
+                            <p class="prog-text">40%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 40%;"></span>
+                            </div>
+                        </div>
+                        <div class="gcpClass" style="display: none;">
+                            <p>• Compute Engine</p>
+                            <p>• Cloud SQL</p>
+                            <p>• Imagens</p>
+                            <p>• Escala Vertical e Horizontal</p> 
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">apache</p>
+                        <div class="progress-con">
+                            <p class="prog-text">20%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 20%;"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">redis</p>
+                        <div class="progress-con">
+                            <p class="prog-text">20%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 20%;"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar" onmouseover="alterarVisibilidade('.terraformClass', true)" onmouseout="alterarVisibilidade('.terraformClass', false)">
+                        <p class="prog-title">terraform</p>
+                        <div class="progress-con">
+                            <p class="prog-text">20%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 20%;"></span>
+                            </div>
+                        </div> 
+                        <div class="terraformClass" style="display: none;"> 
+                            <p>• AWS</p>
+                            <p>• GCP</p> 
+                            <p>• Firewall</p> 
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="about-stats">
+                <h4 class="stat-title">Mobile</h4>
+                <div class="progress-bars">
+                    <div class="progress-bar" onmouseover="alterarVisibilidade('.flutterClass', true)" onmouseout="alterarVisibilidade('.flutterClass', false)">
+                        <p class="prog-title">flutter</p>
+                        <div class="progress-con">
+                            <p class="prog-text">60%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 60%;"></span>
+                            </div>
+                        </div> 
+                        
+                        <div class="flutterClass" style="display: none;">  
+                            <p>• MVC com Repository Pattern (Controller,Model,Repository)</p>
+                            <p>• Gerenciamento de Estado (GetX, Obx, MobX)</p>
+                            <p>• ApiRest</p>  
+                            <p>• Personalização e Temas</p>  
+                        </div>
+                    </div> 
+                </div>
+            </div> 
+            <div class="about-stats">
+                <h4 class="stat-title">gestão de projetos</h4>
+                <div class="progress-bars">
+                    <div class="progress-bar">
+                        <p class="prog-title">bitbucket</p>
+                        <div class="progress-con">
+                            <p class="prog-text">80%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 80%;"></span>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="progress-bar">
+                        <p class="prog-title">jira</p>
+                        <div class="progress-con">
+                            <p class="prog-text">80%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 80%;"></span>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="progress-bar">
+                        <p class="prog-title">clockfly</p>
+                        <div class="progress-con">
+                            <p class="prog-text">60%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 60%;"></span>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="progress-bar">
+                        <p class="prog-title">trello</p>
+                        <div class="progress-con">
+                            <p class="prog-text">40%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 40%;"></span>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="progress-bar">
+                        <p class="prog-title">tech lead</p>
+                        <div class="progress-con">
+                            <p class="prog-text">20%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 20%;"></span>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div> 
+            <div class="about-stats">
+                <h4 class="stat-title">ferramentas e serviços</h4>
+                <div class="progress-bars">
+                    <div class="progress-bar">
+                        <p class="prog-title">s3</p>
+                        <div class="progress-con">
+                            <p class="prog-text">80%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 80%;"></span>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="progress-bar">
+                        <p class="prog-title">oauth (twitter,facebook,instagram...)</p>
+                        <div class="progress-con">
+                            <p class="prog-text">80%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 80%;"></span>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="progress-bar">
+                        <p class="prog-title">pusher</p>
+                        <div class="progress-con">
+                            <p class="prog-text">60%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 60%;"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">onesignal</p>
+                        <div class="progress-con">
+                            <p class="prog-text">60%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 60%;"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">iugu</p>
+                        <div class="progress-con">
+                            <p class="prog-text">60%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 60%;"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">sns</p>
+                        <div class="progress-con">
+                            <p class="prog-text">40%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 40%;"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="about-stats">
+                <h4 class="stat-title">ferramentas e serviços</h4>
+                <div class="progress-bars">
+                    <div class="progress-bar">
+                        <p class="prog-title">Inglês</p>
+                        <div class="progress-con">
+                            <p class="prog-text">40%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 40%;"></span>
+                            </div>
+                        </div>
+                        <p>Inglês básico (fazendo curso presencial no The House para aprimorar meus conhecimentos em inglês)</p> 
+                    </div>   
+                </div>
+            </div>  
+        </section>
+         <section  class="container" id="portfolio">
+            <div class="blogs-content">
+                <div class="main-title">
+                    <h2>cursos e certificados <span class="bg-text">cursos e certificados</span></h2>
+                </div>  
+                <h4 class="stat-title">EspecializaTI (Carlos Ferreira) </h4>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <a href="/certificados/especializati/certificado-especializati-terraform.pdf" target="_blank"> 
+                            <div class="tl-icon">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <p class="tl-duration">07/06/2023</p>
+                            <h5>curso de terraform<span> <br>12 horas</span></h5> 
+                        </a>
+                    </div>
+                    <div class="timeline-item">
+                        <a href="/certificados/especializati/certificado-especializati-aws.pdf" target="_blank"> 
+                            <div class="tl-icon">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <p class="tl-duration">10/06/2023</p>
+                            <h5>curso aws ec2 - escalabilidade e alta disponibilidade<span> <br> 10 horas</span></h5> 
+                        </a>
+                    </div> 
+                    <div class="timeline-item">
+                        <a href="/certificados/especializati/certificado-especializati-aws.pdf" target="_blank"> 
+                            <div class="tl-icon">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <p class="tl-duration">10/06/2003</p>
+                            <h5>curso de docker<span> <br>10 horas</span></h5> 
+                        </a>
+                    </div>  
+                    <div class="timeline-item"> 
+                        <div class="tl-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <p class="tl-duration">*</p>
+                        <h5>Curso de Laravel 10<span> <br>10 horas</span></h5> 
+                    </div>
+                    <div class="timeline-item">
+                        <a href="/certificados/especializati/certificado-especializati-monitor-sites.pdf" target="_blank"> 
+                            <div class="tl-icon">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <p class="tl-duration">*</p>
+                            <h5>curso de laravel 10 - criando um monitor de sites<span> <br>20 horas</span></h5> 
+                        </a>
+                    </div> 
+                </div>  
+            </div>
+            <div class="blogs-content"> 
+                <h4 class="stat-title">udemy</h4>
+                <div class="timeline"> 
+                    <div class="timeline-item">
+                        <a href="/certificados/udemy/udemy-java.pdf" target="_blank">  
+                            <div class="tl-icon">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <p class="tl-duration">26/04/2020</p>
+                            <h5>Java COMPLETO 2020 Programação Orientada a Objetos + Projetos<span> <br>50 horas</span></h5> 
+                        </a>
+                    </div> 
+                    <div class="timeline-item">
+                        <a href="/certificados/udemy/udemy-flutter.pdf" target="_blank">  
+                            <div class="tl-icon">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <p class="tl-duration">21/04/2020</p>
+                            <h5>Crie um App de Quitanda Virtual com Flutter + GetX<span> <br>25 horas</span></h5> 
+                        </a>
+                    </div> 
+                    <div class="timeline-item">
+                        <a href="/certificados/udemy/udemy-csharp.jpg" target="_blank">  
+                            <div class="tl-icon">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <p class="tl-duration">20/11/2020</p>
+                            <h5>C# COMPLETO Programação Orientada a Objetos + Projetos<span> <br>40 horas</span></h5> 
+                        </a>
+                    </div> 
+                    <div class="timeline-item"> 
+                        <a href="/certificados/udemy/udemy-asp-net.jpg" target="_blank">  
+                            <div class="tl-icon">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <p class="tl-duration">01/01/2000</p>
+                            <h5>ASP NET CORE MVC: Do básico ao avançado<span> <br>28 horas</span></h5> 
+                        </a>
+                    </div> 
+                    <div class="timeline-item">
+                        <a href="/certificados/udemy/udemy-inteligencia-artificial.pdf" target="_blank">  
+                            <div class="tl-icon">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <p class="tl-duration">03/05/2020</p>
+                            <h5>Inteligencia Artificial: Algoritmos Inteligentes de Busca <span> <br>6 horas</span></h5> 
+                        </a>
+                    </div>  
+                    <div class="timeline-item"> 
+                        <div class="tl-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <p class="tl-duration">*</p>
+                        <h5>SEO para iniciantes 2018<span> <br>30 minutos</span></h5>  
+                    </div> 
+                    <div class="timeline-item">
+                        <div class="tl-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <p class="tl-duration">*</p>
+                        <h5>Google Analytics: Treinamento Expresso <span> <br>30 minutos</span></h5> 
+                    </div> 
+                </div>  
+            </div>
+            <div class="blogs-content"> 
+                <h4 class="stat-title">FATEC Guaratinguetá </h4>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <a href="/certificados/fatec/maratona-fatec.pdf" target="_blank"> 
+                            <div class="tl-icon">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <p class="tl-duration">01/01/2000</p>
+                            <h5>9ª Maratona de Programação InterFatecs<span> <br>8 horas</span></h5> 
+                        </a>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="tl-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <p class="tl-duration">01/01/2000</p>
+                        <h5>10ª Maratona de Programação InterFatecs (2ª lugar)<span> <br>8 horas</span></h5> 
+                    </div> 
+                </div>  
+            </div>
+        </section> 
+        <section class="container" id="blogs">
+            <div class="blogs-content">
+                <div class="main-title">
+                    <h2>Minhas <span>Experiências</span><span class="bg-text">Minhas Experiências</span></h2>
+                </div>
+                <h4 class="stat-title">Formação Academica</h4>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="tl-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <p class="tl-duration">Jan de 2018 - Jan de 2022</p>
+                        <h5>FATEC Guaratinguetá <span> Faculdade de Tecnologia Estadual de São Paulo</span></h5> 
+                        <p>Análise e desenvolvimento de sistemas</p>
+                    </div> 
+                </div>
+                <h4 class="stat-title">Histórico Profissional</h4>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="tl-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <p class="tl-duration">Out de 2021 - Jun de 2023</p>
+                        <h5>BeC Inteligência<span> - PHP Pleno </span></h5>
+                        <p>Freelancer</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="tl-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <p class="tl-duration">Fev de 2021 - Set de 2021</p>
+                        <h5>Vision Developer<span> - PHP Junior</span></h5> 
+                        <p>Tempo Integral</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="tl-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <p class="tl-duration">Set de 2020 - Fev de 2021</p>
+                        <h5>SJO Artigos Religiosos<span> - SEO (Otimização para motores de busca)</span></h5>
+                        <p>Estágio</p> 
+                    </div> 
+                </div>
+            </div>
+        </section>
+        <section class="container contact" id="contact">
+            <div class="contact-container">
+                <div class="main-title">
+                    <h2>Entre em  <span>contato</span><span class="bg-text">Entre em contato</span></h2>
+                </div>
+                <div class="contact-content-con">
+                    <div class="left-contact">
+                        <h4>Entre em contato</h4> 
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Local</span>
+                                </div>
+                                <p>
+                                    : Lorena, São Paulo
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>Email</span>
+                                </div>
+                                <p>
+                                    <span>: gabrielbromo@outlook.com</span>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-user-graduate"></i>
+                                    <span>Faculdade</span>
+                                </div>
+                                <p>
+                                    <span>: FATEC Guaratinguetá</span>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-phone"></i>
+                                    <span>Numero telefone:</span>
+                                </div>
+                                <p>
+                                    <span>: (12) 98130-0973</span>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-globe-africa"></i>
+                                    <span>Linguas</span>
+                                </div>
+                                <p>
+                                    <span>: Português</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="contact-icons">
+                            <div class="contact-icon"> 
+                                <a href="https://github.com/gabrieltenachous" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/gabrielofsousa//"   target="_blank">
+                                    <i class="fab fa-linkedin"></i>
+                                </a> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-contact">
+                        <form action="" class="contact-form">
+                            <div class="input-control i-c-2">
+                                <span>
+                                    Obrigado por visitar o meu site e ler o meu currículo! Fico muito feliz 
+                                    com o seu interesse. Se você tiver alguma pergunta, quiser mais informações 
+                                    ou estiver interessado no meu currículo, por favor, não hesite em entrar em 
+                                    contato comigo. Estou à disposição para responder suas dúvidas e discutir oportunidades 
+                                    de trabalho. Aguardo ansiosamente a sua mensagem! Obrigado mais uma vez e tenha um ótimo dia!
+                                </span>
+                            </div>
+                             
+                            <div class="submit-btn">
+                                <a href="#" class="main-btn">
+                                    <span class="btn-text">Download CV</span>
+                                    <span class="btn-icon"><i class="fas fa-download"></i></span>
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="controls">
+        <div class="control active-btn" data-id="home" >
+            <i class="fas fa-home"></i>
+        </div>
+        <div class="control" data-id="about">
+            <i class="fas fa-user"></i>
+        </div>
+        <div class="control" data-id="portfolio">
+            <i class="fas fa-briefcase"></i>
+        </div>
+        <div class="control" data-id="blogs">
+            <i class="far fa-newspaper"></i>
+        </div>
+        <div class="control" data-id="contact">
+            <i class="fas fa-envelope-open"></i>
+        </div>
+    </div>
+    <div class="theme-btn">
+        <i class="fas fa-adjust"></i>
+    </div>
+    <script src="app.js"></script>
+</body>
+<script>
+    function alterarVisibilidade(seletor, mostrar) {
+        var div = document.querySelector(seletor);
+        div.style.display = mostrar ? 'block' : 'none';
+    }
+</script>
+<style>
+    ul {
+        list-style-type: circle;
+    }
+</style>
+</html>
